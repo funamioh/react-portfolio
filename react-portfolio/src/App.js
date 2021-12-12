@@ -1,5 +1,8 @@
 import "./App.css";
 import { Navbar } from "react-bootstrap";
+import Hero from "./Hero";
+import About from "./About";
+import MyWorks from "./MyWorks";
 
 function App() {
   var Container = require("react-bootstrap").Container;
@@ -14,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <div>
+      <div className="container">
         <Navbar bg="light" expand="lg">
           <Container className="navbar">
             <Navbar.Brand href="#home">Miho Funayama</Navbar.Brand>
@@ -43,6 +46,28 @@ function App() {
           </Container>
         </Navbar>
       </div>
+      <Hero />
+      <MyWorks />
+      <About />
+
+      <footer>
+        This project is coded by Miho Funayama and{" "}
+        <a
+          href="https://github.com/funamioh/weather-react-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          open-sourced on GitHub
+        </a>
+        . Also hosted on{" "}
+        <a
+          href="https://trusting-franklin-037844.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Netlify
+        </a>
+      </footer>
     </div>
   );
 }
