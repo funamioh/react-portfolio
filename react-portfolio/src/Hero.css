@@ -1,3 +1,30 @@
 .Hero {
   padding: 150px 120px;
+  position: relative;
+}
+
+.Hero vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.Hero .icon {
+  width: 40px;
+  margin: 5px;
+}
+
+.Hero h1 {
+  font-size: 60px;
+}
+.Hero p {
+  font-size: 30px;
+}
+
+@media (max-width: 960px) {
+  .Hero profile-pic {
+    max-width: 30%;
+  }
 }

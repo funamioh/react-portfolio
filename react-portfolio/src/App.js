@@ -3,6 +3,7 @@ import { Navbar } from "react-bootstrap";
 import Hero from "./Hero";
 import About from "./About";
 import MyWorks from "./MyWorks";
+import Contact from "./Contact";
 
 function App() {
   var Container = require("react-bootstrap").Container;
@@ -49,6 +50,7 @@ function App() {
       <Hero />
       <MyWorks />
       <About />
+      <Contact />
 
       <footer>
         This project is coded by Miho Funayama and{" "}
