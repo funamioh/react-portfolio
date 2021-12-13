@@ -2,10 +2,21 @@
   margin-top: 100px;
 }
 
+.About h2 {
+  font-family: var(--title-font);
+  margin: 30px;
+}
+
 .container {
   margin-bottom: 50px;
 }
 
 .shecodes-certs {
-  margin-top: 30px;
+  font-family: var(--title-font);
+  margin: 30px;
+}
+.cert:hover {
+  border: solid 4px #fa9fb9;
+  border-radius: 8px;
+  transition: var(--default-transition);
 }

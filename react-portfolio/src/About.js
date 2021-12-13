@@ -29,7 +29,11 @@ export default function About() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={BasicCert} className="img-fluid" alt="basic-cert" />
+              <img
+                src={BasicCert}
+                className="img-fluid cert"
+                alt="basic-cert"
+              />
             </a>
           </div>
           <div className="col-md-3">
@@ -40,7 +44,7 @@ export default function About() {
             >
               <img
                 src={FrontEndCert}
-                className="img-fluid"
+                className="img-fluid cert"
                 alt="frontend-cert"
               />
             </a>
@@ -51,7 +55,7 @@ export default function About() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={Responsive} className="img-fluid" />
+              <img src={Responsive} className="img-fluid cert" />
             </a>
           </div>
           <div className="col-md-3 img-fluid">
@@ -60,7 +64,7 @@ export default function About() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={ReactCert} className="img-fluid" />
+              <img src={ReactCert} className="img-fluid cert" />
             </a>
           </div>
         </div>

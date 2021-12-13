@@ -17,6 +17,7 @@
 }
 
 .Hero h1 {
+  font-family: var(--title-font);
   font-size: 60px;
 }
 .Hero p {

@@ -1,3 +1,10 @@
-.MyWorks img:hover {
-  transform: scale(0.5);
+.MyWorks h2 {
+  font-family: var(--title-font);
+  margin: 30px;
+}
+
+.MyWorks .launch-app:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+  transition: ease-out 150ms;
 }
