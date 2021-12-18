@@ -24,8 +24,24 @@
   font-size: 30px;
 }
 
+.profile-pic {
+  width: 300px;
+}
+
 @media (max-width: 960px) {
-  .Hero profile-pic {
-    max-width: 30%;
+  .Hero {
+    padding: 50px 80px;
+    position: relative;
+  }
+  .Hero h1 {
+    font-family: var(--title-font);
+    font-size: 45px;
+  }
+  .Hero p {
+    font-size: 20px;
+  }
+  .profile-pic {
+    width: 200px;
+    margin-top: 30px;
   }
 }

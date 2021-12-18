@@ -1,0 +1,8 @@
+.Technologies {
+  margin: 50px;
+}
+
+.Technologies h2 {
+  font-family: var(--title-font);
+  margin: 30px;
+}

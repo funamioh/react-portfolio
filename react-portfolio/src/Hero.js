@@ -26,12 +26,8 @@ export default function Hero() {
             <img src={GitHubIcon} className="icon" />
           </a>
         </div>
-        <div className="d-none d-lg-block col-lg-5">
-          <img
-            src={ProfileImg}
-            className="profile-pic img-fluid"
-            alt="profile-pic"
-          />
+        <div className="col-lg-5">
+          <img src={ProfileImg} className="profile-pic" alt="profile-pic" />
         </div>
       </div>
     </div>

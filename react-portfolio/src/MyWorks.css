@@ -1,10 +1,13 @@
+.MyWorks {
+  margin: 50px auto;
+  max-width: 1000px;
+}
+
 .MyWorks h2 {
   font-family: var(--title-font);
   margin: 30px;
 }
 
 .MyWorks .launch-app:hover {
-  transform: scale(1.05);
   opacity: 0.8;
-  transition: ease-out 150ms;
 }

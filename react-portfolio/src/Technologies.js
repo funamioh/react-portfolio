@@ -1,0 +1,15 @@
+import React from "react";
+import "./Technologies.css";
+
+export default function () {
+  return (
+    <div className="Technologies">
+      <h2>Technologies</h2>
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>Javascript</p>
+      <p>API</p>
+      <p>React</p>
+    </div>
+  );
+}

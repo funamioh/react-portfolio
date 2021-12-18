@@ -1,0 +1,23 @@
+.Contact {
+  margin: 50px;
+}
+
+.Contact .form-group {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.Contact label {
+  align-items: left;
+  margin-bottom: 5px;
+}
+.Contact input {
+  margin-bottom: 20px;
+}
+.Contact h2 {
+  font-family: var(--title-font);
+  margin: 30px;
+}
+
+.form-control-message {
+  padding: 6px 12px 36px;
+}

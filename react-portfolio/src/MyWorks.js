@@ -10,7 +10,7 @@ export default function MyWorks() {
       <div className="container">
         <h2>My Works</h2>
         <div className="row">
-          <div className="col-sm-6 mb-4 launch-app">
+          <div className="col-sm-6 mb-6 launch-app">
             <a
               href="https://trusting-franklin-037844.netlify/"
               target="_blank"
@@ -22,10 +22,12 @@ export default function MyWorks() {
           <div className="col-sm-6">
             <h2>React Weather Project</h2>
             <p>Built with:</p>
+            <p></p>
           </div>
           <div className="col-sm-6 mb-4">
             <h2>React Dictionary Project</h2>
             <p>Built with:</p>
+            <p></p>
           </div>
           <div className="col-sm-6 mb-4 launch-app">
             <a
@@ -48,6 +50,7 @@ export default function MyWorks() {
           <div className="col-sm-6">
             <h2>Random Quote Project</h2>
             <p>Built with:</p>
+            <p></p>
           </div>
         </div>
       </div>
