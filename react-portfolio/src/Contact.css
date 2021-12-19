@@ -1,5 +1,5 @@
 .Contact {
-  margin: 50px;
+  margin: 50px 0;
 }
 
 .Contact .form-group {
@@ -15,7 +15,9 @@
 }
 .Contact h2 {
   font-family: var(--title-font);
+  color: var(--secondary-color);
   margin: 30px;
+  font-size: 3rem;
 }
 
 .form-control-message {

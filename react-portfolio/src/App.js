@@ -11,16 +11,13 @@ function App() {
   var Navbar = require("react-bootstrap").Navbar;
   var Nav = require("react-bootstrap").Nav;
   var NavItem = require("react-bootstrap").NavItem;
-  var NavDropdown = require("react-bootstrap").NavDropdown;
-  var MenuItem = require("react-bootstrap").MenuItem;
-  var Grid = require("react-bootstrap").Grid;
   var Row = require("react-bootstrap").Row;
   var Col = require("react-bootstrap").Col;
 
   return (
     <div className="App">
       <div className="container">
-        <Navbar bg="light" expand="lg">
+        <Navbar expand="lg">
           <Container className="navbar">
             <Navbar.Brand href="./App">Miho Funayama</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

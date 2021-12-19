@@ -1,4 +1,7 @@
 .Hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 150px 120px;
   position: relative;
 }
@@ -10,7 +13,6 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-
 .Hero .icon {
   width: 40px;
   margin: 5px;
@@ -18,20 +20,29 @@
 
 .Hero h1 {
   font-family: var(--title-font);
-  font-size: 60px;
+  color: var(--secondary-color);
+  font-size: 4rem;
+}
+.Hero .wave {
+  margin: 30px;
+  text-align: start;
+  transform: rotate(-20deg);
 }
 .Hero p {
   font-size: 30px;
 }
 
 .profile-pic {
+  max-width: 100%;
   width: 300px;
+  display: inline;
+  margin: 0 20px;
 }
 
 @media (max-width: 960px) {
   .Hero {
-    padding: 50px 80px;
-    position: relative;
+    padding: 30px 80px;
+    display: block;
   }
   .Hero h1 {
     font-family: var(--title-font);
@@ -42,6 +53,7 @@
   }
   .profile-pic {
     width: 200px;
-    margin-top: 30px;
+    margin: 30px auto;
+    display: block;
   }
 }

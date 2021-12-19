@@ -5,7 +5,9 @@
 
 .MyWorks h2 {
   font-family: var(--title-font);
+  color: var(--secondary-color);
   margin: 30px;
+  font-size: 3rem;
 }
 
 .MyWorks .launch-app:hover {

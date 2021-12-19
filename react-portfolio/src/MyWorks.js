@@ -20,13 +20,15 @@ export default function MyWorks() {
             </a>
           </div>
           <div className="col-sm-6">
-            <h2>React Weather Project</h2>
-            <p>Built with:</p>
+            <h3>React Weather Project</h3>
+            <h4>Built with:</h4>
             <p></p>
           </div>
+        </div>
+        <div className="row">
           <div className="col-sm-6 mb-4">
-            <h2>React Dictionary Project</h2>
-            <p>Built with:</p>
+            <h3>React Dictionary Project</h3>
+            <h4>Built with:</h4>
             <p></p>
           </div>
           <div className="col-sm-6 mb-4 launch-app">
@@ -38,6 +40,8 @@ export default function MyWorks() {
               <img src={DictionaryImg} className="img-fluid" />
             </a>
           </div>
+        </div>
+        <div className="row">
           <div className="col-sm-6 mb-4 launch-app">
             <a
               href="https://flamboyant-ptolemy-5e6dba.netlify.app"
@@ -48,8 +52,8 @@ export default function MyWorks() {
             </a>
           </div>
           <div className="col-sm-6">
-            <h2>Random Quote Project</h2>
-            <p>Built with:</p>
+            <h3>Random Quote Project</h3>
+            <h4>Built with:</h4>
             <p></p>
           </div>
         </div>

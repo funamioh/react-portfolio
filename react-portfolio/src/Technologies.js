@@ -1,7 +1,7 @@
 import React from "react";
 import "./Technologies.css";
 
-export default function () {
+export default function Technologies() {
   return (
     <div className="Technologies">
       <h2>Technologies</h2>

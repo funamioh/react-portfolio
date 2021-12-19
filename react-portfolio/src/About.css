@@ -6,6 +6,8 @@
 
 .About h2 {
   font-family: var(--title-font);
+  color: var(--secondary-color);
+  font-size: 3rem;
   margin: 30px;
 }
 
@@ -15,6 +17,7 @@
 }
 
 .About p {
+  color: var(--paragraph-color);
   text-align: start;
 }
 
@@ -26,6 +29,9 @@ img {
   max-width: 80%;
 }
 
+.cert {
+  margin-bottom: 20px;
+}
 .shecodes-certs {
   font-family: var(--primary-font);
   text-align: center;
