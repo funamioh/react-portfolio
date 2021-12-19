@@ -41,7 +41,7 @@ function App() {
       <footer>
         This project is coded by Miho Funayama and{" "}
         <a
-          href="https://github.com/funamioh/weather-react-app"
+          href="https://github.com/funamioh/react-portfolio"
           target="_blank"
           rel="noopener noreferrer"
         >
