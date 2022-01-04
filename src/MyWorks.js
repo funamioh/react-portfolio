@@ -12,7 +12,7 @@ export default function MyWorks() {
         <div className="row">
           <div className="col-sm-6 mb-6 launch-app">
             <a
-              href="https://trusting-franklin-037844.netlify/"
+              href="https://trusting-franklin-037844.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
             >
