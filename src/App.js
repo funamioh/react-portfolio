@@ -1,5 +1,4 @@
 import "./App.css";
-import { Navbar } from "react-bootstrap";
 import Hero from "./Hero";
 import About from "./About";
 import Technologies from "./Technologies";
@@ -10,9 +9,6 @@ function App() {
   var Container = require("react-bootstrap").Container;
   var Navbar = require("react-bootstrap").Navbar;
   var Nav = require("react-bootstrap").Nav;
-  var NavItem = require("react-bootstrap").NavItem;
-  var Row = require("react-bootstrap").Row;
-  var Col = require("react-bootstrap").Col;
 
   return (
     <div className="App">

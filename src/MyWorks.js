@@ -16,7 +16,7 @@ export default function MyWorks() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={WeatherImg} className="img-fluid" />
+              <img src={WeatherImg} className="img-fluid" alt="weather-img" />
             </a>
           </div>
           <div className="col-sm-6">
@@ -37,7 +37,11 @@ export default function MyWorks() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={DictionaryImg} className="img-fluid" />
+              <img
+                src={DictionaryImg}
+                className="img-fluid"
+                alt="dictionary-img"
+              />
             </a>
           </div>
         </div>
@@ -48,7 +52,7 @@ export default function MyWorks() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={QuoteImg} className="img-fluid" />
+              <img src={QuoteImg} className="img-fluid" alt="quote-img" />
             </a>
           </div>
           <div className="col-sm-6">

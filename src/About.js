@@ -76,7 +76,11 @@ export default function About() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={Responsive} className="img-fluid cert" />
+                <img
+                  src={Responsive}
+                  className="img-fluid cert"
+                  alt="responsive-sert"
+                />
               </a>
             </div>
             <div className="col-md-3 img-fluid">
@@ -85,7 +89,11 @@ export default function About() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={ReactCert} className="img-fluid cert" />
+                <img
+                  src={ReactCert}
+                  className="img-fluid cert"
+                  alt="react-sert"
+                />
               </a>
             </div>
           </div>

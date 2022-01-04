@@ -14,16 +14,16 @@ export default function Hero() {
         <a
           href="https://www.linkedin.com/in/miho-funayama-653b391b4/"
           target="_blank"
-          rel="noopener noreferer"
+          rel="noopener noreferrer"
         >
-          <img src={LinkedinIcon} className="icon" />
+          <img src={LinkedinIcon} className="icon" alt="linkedin-icon" />
         </a>
         <a
           href="https://github.com/funamioh"
           target="_blank"
-          rel="noopener noreferer"
+          rel="noopener noreferrer"
         >
-          <img src={GitHubIcon} className="icon" />
+          <img src={GitHubIcon} className="icon" alt="github-icon" />
         </a>
       </div>
       <div className="profile-pic">
