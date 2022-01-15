@@ -1,7 +1,24 @@
 import React from "react";
+import emailjs from "emailjs-com";
 import "./Contact.css";
 
-export default function Contact() {
+const Contact = () => {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_8sknkij",
+        "template_qanbpe8",
+        e.target,
+        "user_yFnn4qLxzvJtJQVtWJTLQ"
+      )
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => console.log(err));
+  }
+
   return (
     <div className="Contact">
       <div className="container">
@@ -11,7 +28,7 @@ export default function Contact() {
           <div className="form-group">
             <div className="row">
               <div className="col-6">
-                <label for="exampleInputEmail1">First Name</label>
+                <label htmlFor="exampleInputEmail1">First Name</label>
                 <input
                   type="name"
                   name="firstName"
@@ -22,7 +39,7 @@ export default function Contact() {
                 />
               </div>
               <div className="col-6">
-                <label for="exampleInputEmail1">Last Name</label>
+                <label htmlFor="exampleInputEmail1">Last Name</label>
                 <input
                   type="name"
                   name="lastName"
@@ -33,7 +50,7 @@ export default function Contact() {
                 />
               </div>
             </div>
-            <label for="exampleInputEmail1">Email address</label>
+            <label htmlFor="exampleInputEmail1">Email address</label>
             <input
               type="email"
               name="mail"
@@ -47,7 +64,7 @@ export default function Contact() {
             </small>
           </div>
           <div className="form-group">
-            <label for="exampleInputMessage">Message</label>
+            <label htmlFor="exampleInputMessage">Message</label>
             <input
               type="message"
               name="message"
@@ -57,11 +74,17 @@ export default function Contact() {
             />
           </div>
 
-          <button type="submit" className="btn btn-primary">
+          <button
+            type="submit"
+            className="btn btn-primary"
+            onSubmit={sendEmail}
+          >
             Submit
           </button>
         </form>
       </div>
-</div>
+    </div>
   );
-}
+};
+
+export default Contact;
