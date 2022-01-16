@@ -5,13 +5,14 @@
   --primary-font: "Roboto", sans-serif;
   --main-color: #016869;
   --secondary-color: #f89d9d;
+  --bg-color: #fff5e1;
   --paragraph-color: rgb(53, 53, 53);
   --default-transition: ease-out 150ms;
 }
 .App {
   text-align: center;
-  background-color: var(--main-color);
   width: 100%;
+  background-color: var(--bg-color);
 }
 
 /*With ".container", there is spaces on the left and right. Use .container-fluid for a full width container*/
@@ -21,13 +22,18 @@
   width: 100%;
   justify-content: center;
 }
+
 .navbar {
-  position: fixed;
-  top: 0;
   width: 100%;
   background-color: var(--main-color);
-  transform: translateZ(1);
   align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+.link {
+  font-size: 1.2rem;
 }
 
 footer {

@@ -2,8 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 150px 120px;
+  padding: 80px 120px 170px;
   position: relative;
+  background-color: var(--main-color);
 }
 
 .Hero vertical-center {
@@ -21,14 +22,17 @@
 .Hero h1 {
   font-family: var(--title-font);
   color: var(--secondary-color);
-  font-size: 4rem;
+  font-size: 7rem;
+  text-align: left;
+  line-height: 7rem;
+  margin-top: 3rem;
 }
 .Hero .wave {
   margin: 10px;
   text-align: start;
 }
 .Hero p {
-  font-size: 30px;
+  font-size: 2.5rem;
 }
 
 .profile-pic {
@@ -40,12 +44,15 @@
 
 @media (max-width: 960px) {
   .Hero {
-    padding: 30px 80px;
+    padding: 10px 80px 40px;
     display: block;
   }
   .Hero h1 {
     font-family: var(--title-font);
-    font-size: 45px;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    margin-top: 30px;
   }
   .Hero p {
     font-size: 20px;

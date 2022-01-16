@@ -9,7 +9,7 @@ export default function MyWorks() {
     <div className="MyWorks">
       <div className="container">
         <h2>My Works</h2>
-        <div className="row">
+        <div className="row mb-5">
           <div className="col-sm-6 mb-6 launch-app">
             <a
               href="https://trusting-franklin-037844.netlify.app"
@@ -29,7 +29,7 @@ export default function MyWorks() {
             </p>
           </div>
         </div>
-        <div className="row">
+        <div className="row mb-5">
           <div className="col-sm-6 mb-6 launch-app">
             <a
               href="https://serene-goldwasser-29304a.netlify.app"
@@ -53,7 +53,7 @@ export default function MyWorks() {
             </p>
           </div>
         </div>
-        <div className="row">
+        <div className="row mb-5">
           <div className="col-sm-6 mb-5 launch-app">
             <a
               href="https://flamboyant-ptolemy-5e6dba.netlify.app"
@@ -69,7 +69,7 @@ export default function MyWorks() {
             <p>
               Random Quote App built with HTML, CSS, and Javascript.Twitter
               button leads to twitter post with a displayed quote and author
-              name, which makes it pretty sharable.
+              name, which makes it so easy to share.
             </p>
           </div>
         </div>

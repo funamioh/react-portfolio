@@ -15,14 +15,24 @@ function App() {
       <div className="container-fluid">
         <Navbar expand="lg">
           <Container className="navbar justify-content-center">
-            <Navbar.Brand href="./App">Miho Funayama</Navbar.Brand>
+            <Navbar.Brand className="navbar-brand" href="#App">
+              Miho Funayama
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="./App">Home</Nav.Link>
-                <Nav.Link href="./MyWork">My Work</Nav.Link>
-                <Nav.Link href="./About">About</Nav.Link>
-                <Nav.Link href="./Contact">Contact</Nav.Link>
+                <Nav.Link className="link" href="#App">
+                  Home
+                </Nav.Link>
+                <Nav.Link className="link" href="#MyWork">
+                  My Work
+                </Nav.Link>
+                <Nav.Link className="link" href="#About">
+                  About
+                </Nav.Link>
+                <Nav.Link className="link" href="#Contact">
+                  Contact
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

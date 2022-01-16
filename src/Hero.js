@@ -8,9 +8,12 @@ export default function Hero() {
   return (
     <div className="Hero">
       <div className="head-tile">
-        <p className="wave">Hi👋I'm</p>
-        <h1>Miho Funayama</h1>
-        <p>Front-end Engineer, Life-long Learner from Japan</p>
+        <h1>
+          Miho
+          <br />
+          Funayama
+        </h1>
+        <p>Front-end Engineer from Japan</p>
         <a
           href="https://www.linkedin.com/in/miho-funayama-653b391b4/"
           target="_blank"

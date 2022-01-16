@@ -4,7 +4,7 @@ import "./Technologies.css";
 export default function Technologies() {
   return (
     <div className="Technologies">
-      <h2>Technologies</h2>
+      <h2>Skills</h2>
       <p>HTML</p>
       <p>CSS</p>
       <p>Javascript</p>
