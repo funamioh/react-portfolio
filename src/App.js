@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="container">
+      <div className="container-fluid">
         <Navbar expand="lg">
           <Container className="navbar">
             <Navbar.Brand href="./App">Miho Funayama</Navbar.Brand>

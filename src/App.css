@@ -14,9 +14,17 @@
   width: 100%;
 }
 
-.container {
+/*With ".container", there is spaces on the left and right. Use .container-fluid for a full width container*/
+.container-fluid {
   background-color: var(--main-color);
   margin: 0 auto;
+  width: 100%;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  margin: auto 0;
+  width: 80%;
 }
 
 footer {
