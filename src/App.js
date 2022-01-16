@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <div className="container-fluid">
         <Navbar expand="lg">
-          <Container className="navbar">
+          <Container className="navbar justify-content-center">
             <Navbar.Brand href="./App">Miho Funayama</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

@@ -9,7 +9,9 @@ export default function Technologies() {
       <p>CSS</p>
       <p>Javascript</p>
       <p>API</p>
+      <p>Bootstrap</p>
       <p>React</p>
+      <p>Figma</p>
     </div>
   );
 }

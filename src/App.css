@@ -19,12 +19,15 @@
   background-color: var(--main-color);
   margin: 0 auto;
   width: 100%;
+  justify-content: center;
 }
 .navbar {
   position: fixed;
   top: 0;
-  margin: auto 0;
-  width: 80%;
+  width: 100%;
+  background-color: var(--main-color);
+  transform: translateZ(1);
+  align-items: center;
 }
 
 footer {

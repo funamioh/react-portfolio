@@ -24,9 +24,8 @@
   font-size: 4rem;
 }
 .Hero .wave {
-  margin: 30px;
+  margin: 10px;
   text-align: start;
-  transform: rotate(-20deg);
 }
 .Hero p {
   font-size: 30px;
