@@ -11,6 +11,31 @@
   font-size: 3rem;
 }
 
-.MyWorks .launch-app:hover {
-  opacity: 0.8;
+.MyWorks h3 {
+  margin-top: 20px;
+}
+
+.MyWorks p {
+  margin-bottom: 20px;
+}
+
+.MyWorks a {
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 15px 20px;
+  margin: 100px 7px;
+  border-radius: 40px;
+  text-decoration: none;
+  background-color: #00196b;
+}
+
+@media (max-width: 960px) {
+  .MyWorks img {
+    margin: 0;
+  }
+  .MyWorks h3 {
+    margin: 0;
+  }
 }

@@ -11,26 +11,24 @@ function App() {
   var Nav = require("react-bootstrap").Nav;
 
   return (
-    <div className="App">
+    <div className="App" id="app">
       <div className="container-fluid">
         <Navbar expand="lg">
           <Container className="navbar justify-content-center">
-            <Navbar.Brand className="navbar-brand" href="#App">
-              Miho Funayama
-            </Navbar.Brand>
+            <Navbar.Brand className="navbar-brand">Miho Funayama</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link className="link" href="#App">
+                <Nav.Link className="link" href="#hero">
                   Home
                 </Nav.Link>
-                <Nav.Link className="link" href="#MyWork">
+                <Nav.Link className="link" href="#myWork">
                   My Work
                 </Nav.Link>
-                <Nav.Link className="link" href="#About">
+                <Nav.Link className="link" href="#about">
                   About
                 </Nav.Link>
-                <Nav.Link className="link" href="#Contact">
+                <Nav.Link className="link" href="#contact">
                   Contact
                 </Nav.Link>
               </Nav>

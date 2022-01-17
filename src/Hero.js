@@ -6,7 +6,7 @@ import ProfileImg from "./profile.jpg";
 
 export default function Hero() {
   return (
-    <div className="Hero">
+    <div className="Hero" id="hero">
       <div className="head-tile">
         <h1>
           Miho
