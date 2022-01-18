@@ -13,13 +13,17 @@ export default function About() {
         <p>
           Miho works as an overseas sales representative for a
           semiconductor-related company. When she was considering using websites
-          and the Internet as part of sales activities, she decided to learn how
-          to code. How coding can have good impacts on people's lives and the
-          fact we can give shape to our ideas by codinbg has been fascinating
-          for her and she decided to become a developer. <br />
+          and the Internet as part of sales promotion activities, she got
+          curious how the things work, and decided to learn coding on her own.
+          As she learned, she was hooked into the world of software development.
+          Balancing full-time job as a sales rep and learning programming was
+          never easy, but genuine curiosity for technology and an aspiration for
+          improvement keeps her going.
+          <br />
           She learned front-end technologies, including Reactjs, at a SheCodes
-          workshop. She also learning backend technologies and aim to become a
-          full-stack developer in the near future.
+          workshop. She is about to start learning backend technologies as well
+          and aim to become a full-stack developer eventually in the near
+          future.
         </p>
 
         <h3 className="shecodes-certs">SheCodes Certificates</h3>
