@@ -1,23 +1,38 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./MyWorks.css";
 import WeatherImg from "./weather-img.png";
 import DictionaryImg from "./dictionary-img.png";
 import QuoteImg from "./quote-img.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function MyWorks() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div className="MyWorks">
       <div className="container" id="myWork">
         <h2>My Works</h2>
         <div className="row  mb-6 ">
-          <div className="col-sm-6 launch-app">
+          <div
+            className="col-sm-6 launch-app"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <img
               src={WeatherImg}
               className="img-fluid mb-4"
               alt="weather-img"
             />
           </div>
-          <div className="col-sm-6 mb-5">
+          <div
+            className="col-sm-6 mb-5"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <h3>React Weather Project</h3>
             <h4>Built with:</h4>
             <p>
@@ -42,14 +57,22 @@ export default function MyWorks() {
           </div>
         </div>
         <div className="row mb-6 ">
-          <div className="col-sm-6 launch-app">
+          <div
+            className="col-sm-6 launch-app"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <img
               src={DictionaryImg}
               className="img-fluid mb-4"
               alt="dictionary-img"
             />
           </div>
-          <div className="col-sm-6 mb-5">
+          <div
+            className="col-sm-6 mb-5"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <h3>React Dictionary Project</h3>
             <h4>Built with:</h4>
             <p>
@@ -74,10 +97,14 @@ export default function MyWorks() {
           </div>
         </div>
         <div className="row mb-6">
-          <div className="col-sm-6 launch-app">
+          <div
+            className="col-sm-6 launch-app"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <img src={QuoteImg} className="img-fluid mb-4" alt="quote-img" />
           </div>
-          <div className="col-sm-6">
+          <div className="col-sm-6" data-aos="fade-up" data-aos-duration="3000">
             <h3>Random Quote Project</h3>
             <h4>Built with:</h4>
             <p>
