@@ -1,0 +1,14 @@
+.Technologies {
+  margin: 50px 0;
+}
+
+.Technologies h2 {
+  font-family: var(--title-font);
+  color: var(--secondary-color);
+  margin: 30px;
+  font-size: 3rem;
+}
+
+.icon-box {
+  display: inline-box;
+}

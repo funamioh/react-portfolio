@@ -1,0 +1,47 @@
+.MyWorks {
+  margin-top: 100px 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.MyWorks h2 {
+  margin: 50px auto;
+  font-family: var(--title-font);
+  color: var(--secondary-color);
+  font-size: 3rem;
+}
+
+.MyWorks h3 {
+  margin-top: 20px;
+}
+
+.MyWorks p {
+  margin-bottom: 20px;
+}
+
+.MyWorks a {
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 15px 20px;
+  margin: 100px 7px;
+  border-radius: 40px;
+  text-decoration: none;
+  background-color: #00196b;
+}
+
+.MyWorks a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 770px) {
+  .MyWorks a {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 12px;
+    /* display: block; */
+    margin: 5px;
+    /* width: 50%; */
+  }
+}

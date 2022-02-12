@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+  --title-font: "Abril Fatface", cursive;
+  --primary-font: "Roboto", sans-serif;
+  --main-color: #016869;
+  --secondary-color: #f89d9d;
+  --light-main: #4e8d7c;
+  --bg-color: #fff5e1;
+  --paragraph-color: rgb(53, 53, 53);
+  --default-transition: ease-out 150ms;
+}
+.App {
+  text-align: center;
+  width: 100%;
+  background-color: var(--bg-color);
+  overflow: hidden;
+}
+
+/*With ".container", there is spaces on the left and right. Use .container-fluid for a full width container*/
+.container-fluid {
+  background-color: var(--main-color);
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar {
+  max-width: 3000px; /*width:100%; not working*/
+  background-color: var(--main-color);
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 3px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.link {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+footer {
+  padding: 10px 0;
+}
