@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import "./MyWorks.css";
-import WeatherImg from "./weather-img.png";
-import DictionaryImg from "./dictionary-img.png";
-import QuoteImg from "./quote-img.png";
+import "./css/MyWorks.css";
+import WeatherImg from "./img/weather-img.png";
+import DictionaryImg from "./img/dictionary-img.png";
+import QuoteImg from "./img/quote-img.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

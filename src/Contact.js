@@ -1,6 +1,6 @@
 import React from "react";
 import emailjs from "emailjs-com";
-import "./Contact.css";
+import "./css/Contact.css";
 
 const Contact = () => {
   function sendEmail(e) {
@@ -63,7 +63,7 @@ const Contact = () => {
               I'll never share your email with anyone else.
             </small>
           </div>
-          <div className="form-group">
+          <div className="form-group message">
             <label htmlFor="exampleInputMessage">Message</label>
             <input
               type="message"

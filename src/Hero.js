@@ -1,8 +1,8 @@
 import React from "react";
-import "./Hero.css";
-import LinkedinIcon from "./linkedin-in-brands.svg";
-import GitHubIcon from "./github-brands.svg";
-import ProfileImg from "./profile.jpg";
+import "./css/Hero.css";
+import LinkedinIcon from "./img/linkedin-in-brands.svg";
+import GitHubIcon from "./img/github-brands.svg";
+import ProfileImg from "./img/profile.jpg";
 
 export default function Hero() {
   return (

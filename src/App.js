@@ -1,4 +1,4 @@
-import "./App.css";
+import "./css/App.css";
 import Hero from "./Hero";
 import About from "./About";
 import Technologies from "./Technologies";
@@ -14,8 +14,7 @@ function App() {
     <div className="App" id="app">
       <div className="container-fluid">
         <Navbar expand="lg">
-          <Container className="navbar justify-content-center">
-            <Navbar.Brand className="navbar-brand">Miho Funayama</Navbar.Brand>
+          <Container className="navbar">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">

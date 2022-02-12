@@ -1,9 +1,9 @@
 import React from "react";
-import BasicCert from "./basic-cert.png";
-import FrontEndCert from "./frontend-cert.png";
-import Responsive from "./responsive-cert.png";
-import ReactCert from "./react-cert.png";
-import "./About.css";
+import BasicCert from "./img/basic-cert.png";
+import FrontEndCert from "./img/frontend-cert.png";
+import Responsive from "./img/responsive-cert.png";
+import ReactCert from "./img/react-cert.png";
+import "./css/About.css";
 
 export default function About() {
   return (
@@ -44,9 +44,7 @@ export default function About() {
                       />
                     </a>
                   </div>
-                  <div className="flip-card-back">
-                    <h3>SheCodes Basics</h3>
-                  </div>
+                  <div className="flip-card-back"></div>
                 </div>
               </div>
             </div>
