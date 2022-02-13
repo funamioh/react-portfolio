@@ -2,6 +2,10 @@
   margin: 50px 0;
 }
 
+.Technologies .container {
+  max-width: 40%;
+}
+
 .Technologies h2 {
   font-family: var(--title-font);
   color: var(--secondary-color);
@@ -10,5 +14,21 @@
 }
 
 .icon-box {
-  display: inline-box;
+  display: inline-block;
+  width: 100px;
+}
+
+i {
+  font-size: 60px;
+  color: rgba(134, 90, 98, 0.89);
+}
+
+.responsive-icon {
+  width: 60px;
+}
+
+@media (max-width: 770px) {
+  .Technologies .container {
+    max-width: 60%;
+  }
 }

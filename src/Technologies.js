@@ -7,23 +7,21 @@ export default function Technologies() {
     <div className="Technologies">
       <h2>My Skills & Tools</h2>
       <div className="container">
-        <div className="row">
-          <div className="icon-box">
-            <i className="devicon devicon-html5-plain"></i>
-            <p>HTML5</p>
-          </div>
-          <div className="icon-box">
-            <i className="devicon devicon-css3-plain"></i>
-            <p>CSS3</p>
-          </div>
-          <div className="icon-box">
-            <i className="fab fa-js"></i>
-            <p>JavaScript</p>
-          </div>
-          <div className="icon-box">
-            <i className="devicon devicon-react-original"></i>
-            <p>React</p>
-          </div>
+        <div className="icon-box">
+          <i className="devicon devicon-html5-plain"></i>
+          <p>HTML5</p>
+        </div>
+        <div className="icon-box">
+          <i className="devicon devicon-css3-plain"></i>
+          <p>CSS3</p>
+        </div>
+        <div className="icon-box">
+          <i className="fab fa-js"></i>
+          <p>JavaScript</p>
+        </div>
+        <div className="icon-box">
+          <i className="devicon devicon-react-original"></i>
+          <p>React</p>
         </div>
         <div className="icon-box">
           <i className="fas fa-cogs"></i>
@@ -44,8 +42,11 @@ export default function Technologies() {
         <div className="icon-box">
           <i className="devicon devicon-github-plain"></i>
           <p>GitHub</p>
+        </div>
+        <div className="icon-box">
           <img
             src={ResponsiveDesign}
+            className="responsive-icon"
             alt="responsive design"
             width="20px"
             display="inline"
