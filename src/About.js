@@ -11,18 +11,14 @@ export default function About() {
       <div className="container" id="about">
         <h2>My Bio 👑</h2>
         <p>
-          Miho works as an overseas sales representative for a
-          semiconductor-related company. When she was considering using websites
-          and the Internet as part of sales promotion activities, she got
-          curious about how things work, and decided to learn coding on her own.
-          As she learned, she was hooked into the world of software development.
-          Balancing full-time job as a sales rep and learning programming was
-          never easy, but a genuine curiosity for technology and an aspiration
-          for improvement keep her going.
-          <br />
-          She learned front-end technologies, including Reactjs, at SheCodes
-          workshops. She is about to start learning backend technologies as well
-          and aims to become a full-stack developer eventually in the near soon.
+          I'm a former sales representative who turned software developer. My
+          passion is to create convenient user interfaces using good tools and
+          designs.
+        </p>
+        <p>
+          I learned frontend development skills on SheCodes online workshops and
+          am constantly working on improving understanding and skills of
+          JavaScript and React through building websites and applications.
         </p>
 
         <h3 className="shecodes-certs">SheCodes Certificates</h3>
