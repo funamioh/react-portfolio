@@ -4,12 +4,11 @@ import About from "./About";
 import Technologies from "./Technologies";
 import MyWorks from "./MyWorks";
 import Contact from "./Contact";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
 function App() {
-  var Container = require("react-bootstrap").Container;
-  var Navbar = require("react-bootstrap").Navbar;
-  var Nav = require("react-bootstrap").Nav;
-
   return (
     <div className="App" id="app">
       <div className="container-fluid">

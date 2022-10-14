@@ -4,7 +4,7 @@
 }
 
 .contact-message {
-  color: rgba(198, 255, 224, 0.89);
+  color: #ffff;
   font-size: 20px;
 }
 
@@ -26,10 +26,30 @@
   font-size: 3rem;
 }
 
+label {
+  color: #ffff;
+}
+
 .form-control-message {
   padding: 6px 12px 36px;
+  color: #ffff;
+}
+
+.form-text {
+  color: #ffff;
 }
 
 #exampleInputEmail1 {
   margin-bottom: 0;
+}
+
+button {
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 15px 20px;
+  border-radius: 40px;
+  text-decoration: none;
+  background-color: #00196b;
 }

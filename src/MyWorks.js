@@ -16,11 +16,11 @@ export default function MyWorks() {
     <div className="MyWorks">
       <div className="container" id="myWork">
         <h2>My Works</h2>
-        <div className="row mb-6 ">
+        <div className="row">
           <div
             className="col-sm-6 launch-app"
             data-aos="fade-right"
-            data-aos-duration="3000"
+            data-aos-duration="1500"
           >
             <img
               src={WeatherImg}
@@ -31,7 +31,7 @@ export default function MyWorks() {
           <div
             className="col-sm-6 mb-5"
             data-aos="fade-right"
-            data-aos-duration="3000"
+            data-aos-duration="1500"
           >
             <h3>React Weather Project</h3>
             <h4>Built with:</h4>
@@ -60,7 +60,7 @@ export default function MyWorks() {
           <div
             className="col-sm-6 launch-app"
             data-aos="fade-left"
-            data-aos-duration="3000"
+            data-aos-duration="1500"
           >
             <img
               src={DictionaryImg}
@@ -71,7 +71,7 @@ export default function MyWorks() {
           <div
             className="col-sm-6 mb-5"
             data-aos="fade-left"
-            data-aos-duration="3000"
+            data-aos-duration="1500"
           >
             <h3>React Dictionary Project</h3>
             <h4>Built with:</h4>
@@ -100,14 +100,14 @@ export default function MyWorks() {
           <div
             className="col-sm-6 launch-app"
             data-aos="fade-right"
-            data-aos-duration="3000"
+            data-aos-duration="1500"
           >
             <img src={QuoteImg} className="img-fluid mb-4" alt="quote-img" />
           </div>
           <div
             className="col-sm-6"
             data-aos="fade-right"
-            data-aos-duration="3000"
+            data-aos-duration="1500"
           >
             <h3>Random Quote Project</h3>
             <h4>Built with:</h4>
